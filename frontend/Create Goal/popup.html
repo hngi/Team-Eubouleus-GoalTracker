@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>popup page</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Poppins">
+  </head>
+
+  <body>
+        <h3>Goals</h3>
+        <button class="create-goal" style="display:inline-block" onclick="openForm()">
+                <img class="add-icon" src="https://res.cloudinary.com/ibuqun/image/upload/v1569408293/plus_fya78s.svg" 
+                style="float:left;margin-right:0.5em">Create goal</button>
+        
+                <div class="form-popup" id="myForm">
+                        <form action="/action_page.php" class="form-container">
+                          <label for="  Name"><b>Name</b></label><br>
+                          <input type="text" name="name" required><br>
+                      
+                          <label for="Due Date"><b>Due Date</b></label><br>
+                          <input type="date"name="due-date" required><br>
+
+                          <label for="Priority"><b>Priority</b></label><br>
+                          <select>
+                              <option value="none">none</option>
+                              <option value="5">5</option>
+                              <option value="4">4</option>
+                              <option value="3">3</option>
+                              <option value="2">2</option>
+                              <option value="1">1</option>
+                          </select><br>
+                          <label for="Aim"><b>Why do you want to achieve this goal?</b></label><br>
+                          <textarea></textarea><br>                          
+                          <button type="button" class="save-btn" >Save</button>
+                          </form>
+                        </div>
+        
+        
+            </button>
+
+        <div class="options-list">
+                <div class="list">
+                <img class="icon" src="https://res.cloudinary.com/ibuqun/image/upload/v1569408502/menu_gywyll.svg">
+                <a href=# class="list-item">Dashboard</a>
+                </div>
+                <div class="list">
+                <img class="icon" src="https://res.cloudinary.com/ibuqun/image/upload/v1569408502/target_qqqaf1.svg">
+                <a href = # class="list-item">Goals</a>
+                </div>
+                <div class="list">
+                <img class="icon" src ="https://res.cloudinary.com/ibuqun/image/upload/v1569408501/book-open_gcyzwq.svg">
+                <a href= # class="list-item">Reports</a>
+                </div>
+                <div class="list">
+                <img class="icon" src ="https://res.cloudinary.com/ibuqun/image/upload/v1569408502/settings_nijaiq.svg">
+                <a href=# class="list-item">Settings</a>
+                </div>
+                <div class="list">
+                <img class="icon" src="https://res.cloudinary.com/ibuqun/image/upload/v1569408502/log-out_dtzwlx.svg">
+                <a href= # class="list-item">Logout</a>
+                </div>
+        
+        </div>
+
+        <script>
+                document.getElementById("myForm").style.display = "none";
+                function openForm() {
+                  document.getElementById("myForm").style.display = "block";
+                }
+                
+                function closeForm() {
+                  document.getElementById("myForm").style.display = "none";
+                }
+                </script>
+                
+
+  </body>
+</html>
