@@ -142,7 +142,7 @@ a{
 .form{
   border:1px solid black;
   
-  height:400px;
+  height:450px;
   width:600px;
   margin-right: auto;
   margin-left: auto;
@@ -158,7 +158,7 @@ a{
   .form{
     border:1px solid black;
     width:300px;
-    height: 450px;
+    height: 460px;
     left:40px;
   }
 }
@@ -170,6 +170,13 @@ a{
 .form p{
   padding:10px;
   font-family: cursive;
+  font-family:cursive;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 29px;
+
+color: #0F052D;
 }
 .form form{
   padding:10px;
