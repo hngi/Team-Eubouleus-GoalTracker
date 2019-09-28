@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div id="page-name">
+					<h1>Goal Tracker | Dashboard</h1>
+				</div>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="Dash">Goals</a></li>
+				</ul>
+			</nav>
+		</header>
+		<section id="left-nav">
+			<div class="container">
+				<aside id="left-sidebar">
+					<nav>
+						<ul>
+							<li><a href="Dash">Dashboard</a></li>
+							<li><a href="Dash">Goals</a></li>
+							<li><a href="Dash">Report</a></li>
+							<li><a href="Dash">Settings</a></li>
+							<li><a href="Dash">Logout</a></li>
+						</ul>
+					</nav>
+				</aside>
+
+				<div id="box-shadow">
+					<form>
+						<button id="goal-button"> + Create Goal</button>
+						<div class="form-group">
+							<label for="name">Name</label><br>
+							<input type="text" id="name" class="form-control">
+						</div>
+						<div class="form-group">
+							<label for="due-date">Due date</label><br>
+							<input type="text" id="due-date" class="form-control">
+						</div>
+						<div class="form-group">
+							<label for="core-values">Core Value</label><br>
+							<input type="text" id="core-values" class="form-control">
+						</div>
+						<div class="form-group">
+							<label for="magnitude">Magnitude</label><br>
+							<input type="text" id="magnitude" class="form-control">
+						</div>
+						<div class="form-group">
+							<label for="priority">Priority</label><br>
+							<input type="text" id="priority" class="form-control">
+						</div>
+						<div class="form-group">
+							<label for="why-this-goal">Why do you want to achieve this goal</label><br>
+							<textarea cols="50" rows="5"></textarea>
+						</div>
+						 <div class="d-flex flex-row mt-3 justify-content-between">
+                                <label>
+                                    <input type="checkbox" name="remember"> Yes my goal is Specific, measurable and achievable
+                                </label>
+                         </div>
+                            <button type="submit" class="btn login-btn mt-4" id="login-button">Save</button>
+					</form>
+			</div> 
+		</section>
+	</body>
+</html>
