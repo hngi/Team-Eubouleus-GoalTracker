@@ -1,0 +1,108 @@
+body {
+	font:15px/1.5 'Poppins', sans-serif;
+	padding:0;
+	margin:0;
+	background-color:#f4f4f4;
+}
+
+.container {
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+button {
+	width:150px;
+	height:28px;
+	background:#0984e3;
+	border-radius:3px;
+	float:right;
+}
+
+header {
+	background-image:linear-gradient(rgba(0.7,0.7,0.7,0.7), rgba(0.7,0.7,0.7,0.7)), url('../img/targeted_arrow.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+	min-height: 70px;
+	padding-top:30px;
+}
+
+header a {
+	color:#ffffff;
+	text-decoration:none;
+	text-transform: uppercase;
+	font-size:16px;
+}
+
+header ul {
+	margin:0;
+	padding:0;
+}
+
+header li {
+	display: inline;
+	float:left;
+	padding:0 20px 0 20px;
+}
+
+header #page-name {
+	float:left;
+}
+
+header #page-name h1 {
+	margin:0;
+	color:#ffffff;
+}
+
+header nav {
+	float:right;
+	margin-top:-40px;
+}
+
+#box-shadow {
+	float:right;
+	width:60%;
+	margin-top:50px;
+}
+
+.form-control {
+	border-radius:3px;
+	width:370px;
+	height:25px;
+}
+
+input[type="text"] {
+	margin:5px;
+}
+
+#goal-button {
+	border:none;
+	background:none;
+	border:1px solid #000000;
+	font-size:20px;
+	font-family:'Poppins', sans-serif;
+}
+
+
+aside#left-sidebar {
+	margin:100px 0 0 50px;
+	float:left;
+	width:35%;
+}
+
+aside#left-sidebar a {
+	text-decoration: none;
+	color:black;
+	font-size:22px;
+}
+
+aside#left-sidebar ul {
+	margin:0;
+	padding:0;
+}
+
+aside#left-sidebar li {
+	padding:20px 0 20px 0;
+	list-style: none;
+}
